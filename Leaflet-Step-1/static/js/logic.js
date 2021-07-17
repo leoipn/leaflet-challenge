@@ -22,8 +22,8 @@ function createMap(earthQuakes) {
   
     // Create the map object with options
     var map = L.map("mapid", {
-      center: [34.052235, -118.243683],
-      zoom: 7,
+      center: [35, -110],
+      zoom: 6,
       layers: [lightmap, earthQuakes]
     });
   
